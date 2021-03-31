@@ -1,0 +1,18 @@
+{
+  "id": 987789,
+  "category": {
+    "id": 0,
+    "name": "Dog"
+  },
+  "name": "Pappii",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "Boxer"
+    }
+  ],
+  "status": "available"
+}

@@ -1,0 +1,64 @@
+# Pet servisine request body oluştur
+* "id" parameter Int:"19979" değeri ile request oluştur
+* "id" parameter Int:"0" değeri ile json objesi oluştur
+* "name" parameter String:"Dog" değeri ile json objesi oluştur
+* "category" parameteri ile Json Objesini oluştur
+* Json Objesini Temizle
+* "name" parameter String:"Pappii" değeri ile request oluştur
+* "string" parameteresini listeye ekle
+* "photoUrls" parameteri ile Json List Objesini oluştur
+* "id" parameter Int:"0" değeri ile json objesi oluştur
+* "name" parameter String:"Boxer" değeri ile json objesi oluştur
+* "tags" parameteri ile Array Objesini oluştur
+* "status" parameter String:"available" değeri ile request oluştur
+
+# <id> idli request bodyde 'name' keyini <nameValue> ile güncelle
+* "id" parameter Int:<id> değeri ile request oluştur
+* "id" parameter Int:"0" değeri ile json objesi oluştur
+* "name" parameter String:"Dog" değeri ile json objesi oluştur
+* "category" parameteri ile Json Objesini oluştur
+* Json Objesini Temizle
+* "name" parameter String:<nameValue> değeri ile request oluştur
+* "string" parameteresini listeye ekle
+* "photoUrls" parameteri ile Json List Objesini oluştur
+* "id" parameter Int:"0" değeri ile json objesi oluştur
+* "name" parameter String:"Boxer" değeri ile json objesi oluştur
+* "tags" parameteri ile Array Objesini oluştur
+* "status" parameter String:"available" değeri ile request oluştur
+
+
+#Store servisine request body oluştur
+* "id" parameter Int:"8" değeri ile request oluştur
+* "petId" parameter Int:"250" değeri ile request oluştur
+* "quantity" parameter Int:"19445" değeri ile request oluştur
+* "shipDate" parameter String:"19" değeri ile request oluştur
+* "status" parameter String:"19" değeri ile request oluştur
+* "complete" parameter Boolean:"true" değeri ile request oluştur
+
+# <id> idli request bodyde 'complete' keyini <bool> ile güncelle
+* "id" parameter Int:<id> değeri ile request oluştur
+* "petId" parameter Int:"250" değeri ile request oluştur
+* "quantity" parameter Int:"19445" değeri ile request oluştur
+* "shipDate" parameter String:"19" değeri ile request oluştur
+* "status" parameter String:"19" değeri ile request oluştur
+* "complete" parameter Boolean:<bool> değeri ile request oluştur
+
+#User createWithArray request body oluştur
+*"id" parameter Int:"0" değeri ile request oluştur
+*"username" parameter String:"oo" değeri ile request oluştur
+*"firstName" parameter String:"Oğuz" değeri ile request oluştur
+*"lastName" parameter String:"OKTAMIŞ" değeri ile request oluştur
+*"email" parameter String:"oo@gmail.com" değeri ile request oluştur
+*"password" parameter String:"benimsifrem" değeri ile request oluştur
+*"phone" parameter String:"0000000000" değeri ile request oluştur
+*"userStatus" parameter Int:"0" değeri ile request oluştur
+
+# <username> usernameli request bodyde 'password' keyini <email> ile güncelle
+*"id" parameter Int:"78942810" değeri ile request oluştur
+*"username" parameter String:<username> değeri ile request oluştur
+*"firstName" parameter String:"Oğuz" değeri ile request oluştur
+*"lastName" parameter String:"OKTAMIŞ" değeri ile request oluştur
+*"email" parameter String:"oo@gmail.com" değeri ile request oluştur
+*"password" parameter String:<email> değeri ile request oluştur
+*"phone" parameter String:"0000000000" değeri ile request oluştur
+*"userStatus" parameter Int:"0" değeri ile request oluştur
